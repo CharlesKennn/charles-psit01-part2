@@ -1,0 +1,80 @@
+.navbar{
+    background-color: rgb(75, 77, 88)
+
+}
+.navbar .navlink{
+    color: rgb(172, 164, 209);
+}
+
+.btn {
+    padding: 20px 30px;
+    font-weight: 900;
+    font-size: 10px;
+}
+
+.btn-bembang {
+    background-color: blue;
+    border: 2px solid;
+    border-radius: 10px;
+    transition: all ease-in 0.5s;
+}
+
+.btn-bembang:hover {
+    color: antiquewhite;
+    border: 2px solid;
+}
+
+.xen{
+    width: 6%;
+}
+div .col-lg-12{
+    color: aliceblue;
+}
+
+#banner {
+    background: url('bgg.avif');
+    height: 100vh;
+    background-size: cover;
+}
+
+#section {
+    padding: 100px 0;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#about h2, #about h3 {
+    color: rgb(0, 0, 0);
+}
+
+#about img {
+    padding: 25px 20px;
+    border: 10px solid rgb(214, 214, 214);
+    box-shadow: 0 15px rgb(180, 180, 180) ;
+    border-radius: 25px;
+}
+
+.card-top-top{
+    width: 30%;
+}
+
+.card{
+    border: 15px solid rgb(69, 173, 104);
+    box-shadow: 0 0 200px 0 rgb(12, 12 12);
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+.card:hover{
+    background-color: rgb(69, 173, 104);
+    box-shadow: 0 0 25px 0 black;
+}
+
+.card:hover .card-title,
+.card:hover .card-text {
+    color: #000000;
+}
